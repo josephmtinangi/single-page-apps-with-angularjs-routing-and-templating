@@ -1,1 +1,1 @@
-# single-page-apps-with-angularjs-routing-and-templating
+# Single Page App with AngularJS Routing and Templating
