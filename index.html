@@ -1,6 +1,8 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- define angular app -->
+<html lang="en" ng-app="mtinangiApp">
   <head>
     <!-- SCROLLS -->
     <meta charset="utf-8">
@@ -22,7 +24,8 @@
 
   </head>
 
-  <body>
+  <!-- define angular controller -->
+  <body ng-controller="mainController">
 
    <!-- HEADER AND NAVBAR -->
    <header>
@@ -50,6 +53,8 @@
    <!-- MAIN CONTENT AND INJECTED VIEWS -->
 
    <div id="main">
+
+      {{ message }}
      
       <!-- angular templating -->
       <!-- this is where content will be injected -->
